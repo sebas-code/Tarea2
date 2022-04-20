@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    color: #12AAB3;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 20px 20px;
+}
+
+.nav-brand{
+    width: 120px;
+}
+
+.nav-main ul li{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 30px;
+}
+
+
+.nav-main ul.nav-menu{
+    display: flex;
+    
+}
+
+hr {
+    height: 4px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #12AAB3;
+    }
+
+h1{
+    font-size: 45px;
+    padding-top: 2%;
+    margin-left: 5%;
+
+}
+
+h3{
+    font-style:italic;
+    padding-top: 1%;
+    margin-left: 5%;
+}
+
+.content{
+
+    padding-top: 2%;
+    padding-left: 25%;
+}
+
+i{
+    margin-right: 10px;
+    height: 10px;
+}
+
+.buttons{
+    margin-top: 2%;
+    margin-left: 20px;
+    margin-right: 20px;
+    outline: none;
+    border-color: #12AAB3;
+    border-radius: 9%;
+    height: 55px;
+    width: 50%;
+    background: #CFCFCF;
+    color: black;
+    font-size: 20px;
+
+}
+

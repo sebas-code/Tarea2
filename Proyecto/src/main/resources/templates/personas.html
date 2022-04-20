@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header th:replace="plantilla/template"></header>
+        <h1>Clientes Registrados</h1>
+        <table>
+            <th:block th:each="user : ${personas}">
+                <tr>
+                    <td th:text="${user.getEmail}"></td>
+                </tr>
+                <tr>
+                    <td th:text="${user.getNombre}"></td>
+                </tr>
+        </table>
+    </body>
+</html>

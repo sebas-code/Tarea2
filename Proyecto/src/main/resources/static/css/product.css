@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    color: #12AAB3;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+}
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 20px 20px;
+}
+
+.nav-brand{
+    width: 120px;
+}
+
+.nav-main ul li{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 30px;
+}
+
+
+.nav-main ul.nav-menu{
+    display: flex;
+    
+}
+
+
+
+.productpic{
+    padding-left: 100px;
+    margin-top: 3%;
+    height: 700px;
+}
+
+.datos{
+    transform: translate(70% , -130%);
+}
+.content{
+    margin:10px;
+    width: 100%;
+    max-width: 900px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: block ;
+}
+
+.stars-container{
+    display: flex;
+    color: #12AAB3;
+    padding-bottom: 2%;
+    
+}
+i{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+p{
+    font-size: 17px;
+    margin-bottom: 3%;
+}
+
+.dots{
+    color: #12AAB3;
+    font-size: 23px;
+    padding-bottom: 3%;
+}
+
+.checks{
+    margin-top: 2%;
+}
+
+.qtn{
+    background: transparent;
+    color: black;
+    border-radius: 9%;
+    outline: none;
+    border-color: #12AAB3;
+    font-size: 24px;
+    width: 5%;
+}
+
+
+h1{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+hr{
+    height: 4px;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #12AAB3;
+    
+}
+
+.div{
+    height: 4px;
+    width: 80%;
+    margin-left: 9%;
+    
+    background-color: #12AAB3;
+}
+
+h5{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 14px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Add{
+    margin-left: 2%;
+    text-decoration: none;
+    color:#12AAB3 ;
+    font-size: 24px;
+    
+}
+

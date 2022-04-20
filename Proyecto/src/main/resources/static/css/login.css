@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: black;
+}
+
+
+video{
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+
+.login-container{
+    width: 350px;
+    height: 520px;
+    background: #ebebebb4;
+    opacity: 70%;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-180% , -50%);
+}
+.login-container h4{
+    font-size: 18px;
+    transform: translate(5% , 100%);
+}
+
+.login-container h1{
+    margin-top: 10%;
+    transform: translate(5% , 0%);
+}
+
+.form-login label{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0%;
+    display: block;
+    font-size: 23px;
+    transform: translate(5%,0%);
+    
+
+}
+
+.form-login input{
+    margin-left: 10%;
+    width: 50%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    transform: translate(-10%,0%);
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+.form-login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #ffffff;
+    font-size: 20px;
+    border-radius: 27px;
+    transform: translate( 28%,0%);
+
+}
+
+
+img{
+    
+    padding-right: 5%;
+    width: 60px;
+    height: auto;
+    transform: translate(-160%,220%);
+    
+}
+
+.sign-btn{
+    border: none;
+    outline: none;
+    background: #FFFFFF;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    width: 90px;
+    text-decoration: none;
+    display: flex;
+    transform: translate(280% , -30%);
+}

@@ -1,0 +1,49 @@
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+    <head >
+        <title>Home</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+        <link th:href="@{vendor/bootstrap/css/bootstrap.min.css}"
+              rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link th:href="@{css/heroic-features.css}" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <nav class="nav-main">
+                <img src="img/LOGO.png" alt="LOGO" class="nav-brand">
+                <ul class="nav-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <video src="img/videoHome.mp4" autoplay muted loop class="main-video"></video>
+            <h1 >HOW IS IT MADE</h1>
+        </div>
+        <div class="row text-center">
+
+            <div class="col-lg-3 col-md-6 mb-4" th:each="producto: ${productos}">
+                <div class="card h-100">
+                    <img class="card-img-top"
+                         th:src="@{/images/{img} (img=${producto.imagen})} " alt="">
+                    <div class="card-body">
+                        <p class="card-text" th:text="${producto.nombre}"></p>
+                    </div>
+                    <div class="card-footer">
+                        <a th:href="@{/productohome/{id}  (id=${producto.id})  }" class="btn btn-success">Ver
+                            producto</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script th:src="@{vendor/jquery/jquery.min.js}"></script>
+        <script th:src="@{vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+    </body>
+</html>
